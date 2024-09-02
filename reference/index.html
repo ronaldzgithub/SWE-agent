@@ -9,25 +9,25 @@
       
       
       
-        <link rel="prev" href="../usage_faq/">
+        <link rel="prev" href="../dev/formatting_conflicts/">
       
       
-        <link rel="next" href="../../config/config/">
+        <link rel="next" href="agent/">
       
       
-      <link rel="icon" href="../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.34">
     
     
       
-        <title>Benchmarking - SWE-agent documentation</title>
+        <title>Code structure and reference - SWE-agent documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.35f28582.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.35f28582.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,16 +46,16 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -64,7 +64,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -83,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#benchmarking" class="md-skip">
+        <a href="#code-structure-and-reference" class="md-skip">
           Skip to content
         </a>
       
@@ -99,9 +99,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="SWE-agent documentation" class="md-header__button md-logo" aria-label="SWE-agent documentation" data-md-component="logo">
+    <a href=".." title="SWE-agent documentation" class="md-header__button md-logo" aria-label="SWE-agent documentation" data-md-component="logo">
       
-  <img src="../../assets/swe-agent.svg" alt="logo">
+  <img src="../assets/swe-agent.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -118,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Benchmarking
+              Code structure and reference
             
           </span>
         </div>
@@ -241,9 +241,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="SWE-agent documentation" class="md-nav__button md-logo" aria-label="SWE-agent documentation" data-md-component="logo">
+    <a href=".." title="SWE-agent documentation" class="md-nav__button md-logo" aria-label="SWE-agent documentation" data-md-component="logo">
       
-  <img src="../../assets/swe-agent.svg" alt="logo">
+  <img src="../assets/swe-agent.svg" alt="logo">
 
     </a>
     SWE-agent documentation
@@ -270,7 +270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -312,7 +312,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../background/" class="md-nav__link ">
+            <a href="../background/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -345,7 +345,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../background/aci/" class="md-nav__link">
+      <a href="../background/aci/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -366,7 +366,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../background/architecture/" class="md-nav__link">
+      <a href="../background/architecture/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -424,7 +424,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../installation/" class="md-nav__link ">
+            <a href="../installation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -457,7 +457,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../installation/codespaces/" class="md-nav__link">
+      <a href="../installation/codespaces/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -478,7 +478,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../installation/source/" class="md-nav__link">
+      <a href="../installation/source/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -499,7 +499,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../installation/docker/" class="md-nav__link">
+      <a href="../installation/docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -520,7 +520,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../installation/keys/" class="md-nav__link">
+      <a href="../installation/keys/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -541,7 +541,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../installation/tips/" class="md-nav__link">
+      <a href="../installation/tips/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -562,7 +562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../installation/changelog/" class="md-nav__link">
+      <a href="../installation/changelog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -587,8 +587,6 @@
       
   
   
-    
-  
   
   
     
@@ -615,16 +613,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../usage/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -641,7 +639,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Usage
@@ -657,7 +655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../cl_tutorial/" class="md-nav__link">
+      <a href="../usage/cl_tutorial/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -678,7 +676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../coding_challenges/" class="md-nav__link">
+      <a href="../usage/coding_challenges/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -699,7 +697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../web_ui/" class="md-nav__link">
+      <a href="../usage/web_ui/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -720,7 +718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trajectories/" class="md-nav__link">
+      <a href="../usage/trajectories/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -741,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../inspector/" class="md-nav__link">
+      <a href="../usage/inspector/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -762,7 +760,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../usage_faq/" class="md-nav__link">
+      <a href="../usage/usage_faq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -780,30 +778,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Benchmarking
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../usage/benchmarking/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -812,44 +790,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#inference" class="md-nav__link">
-    <span class="md-ellipsis">
-      👩‍💻 Inference
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evaluation" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧪 Evaluation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -916,7 +856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../config/config/" class="md-nav__link">
+      <a href="../config/config/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -937,7 +877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../config/commands/" class="md-nav__link">
+      <a href="../config/commands/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -958,7 +898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../config/demonstrations/" class="md-nav__link">
+      <a href="../config/demonstrations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -979,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../config/env/" class="md-nav__link">
+      <a href="../config/env/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1000,7 +940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../config/docker/" class="md-nav__link">
+      <a href="../config/docker/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1069,7 +1009,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dev/contribute/" class="md-nav__link">
+      <a href="../dev/contribute/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1090,7 +1030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../dev/formatting_conflicts/" class="md-nav__link">
+      <a href="../dev/formatting_conflicts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1115,6 +1055,8 @@
       
   
   
+    
+  
   
   
     
@@ -1135,16 +1077,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/" class="md-nav__link ">
+            <a href="./" class="md-nav__link md-nav__link--active">
               
   
   <span class="md-ellipsis">
@@ -1155,13 +1097,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+              <label class="md-nav__link md-nav__link--active" for="__nav_7" id="__nav_7_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Reference
@@ -1177,7 +1119,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/agent/" class="md-nav__link">
+      <a href="agent/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1198,7 +1140,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/models/" class="md-nav__link">
+      <a href="models/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1219,7 +1161,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/env/" class="md-nav__link">
+      <a href="env/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1240,7 +1182,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/env_utils/" class="md-nav__link">
+      <a href="env_utils/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1268,7 +1210,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
+      <a href="../faq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1301,32 +1243,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#inference" class="md-nav__link">
-    <span class="md-ellipsis">
-      👩‍💻 Inference
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#evaluation" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧪 Evaluation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1340,7 +1256,7 @@
                   
 
   
-    <a href="https://github.com/princeton-nlp/SWE-agent/edit/main/docs/usage/benchmarking.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/princeton-nlp/SWE-agent/edit/main/docs/reference/index.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -1348,61 +1264,37 @@
   
 
 
-<h1 id="benchmarking">Benchmarking</h1>
-<p>There are two steps to the SWE-agent pipeline. First SWE-agent takes an input GitHub issue and returns a pull request that attempts to fix it. We call that step <em>inference</em>. The second step (currently, only available for issues in the SWE-bench benchmark) is to <em>evaluate</em> the pull request to verify that it has indeed fixed the issue.</p>
+<h1 id="code-structure-and-reference">Code structure and reference</h1>
 <div class="admonition warning">
-<p class="admonition-title">Architectures</p>
-<p>At this moment, there are known issues with a small number of repositories that don't install properly for <code>arm64</code> / <code>aarch64</code> architecture computers. We're working on a fix, but if you'd like to run and evaluate on the entirety of SWE-bench, the easiest way is by using an <code>x86</code> machine.</p>
+<p class="admonition-title">This section is in development</p>
+<p>Some submodules are missing. We also do not strive for completeness, but provide this as an easy entry point
+for people who want to start reading the code.
+Also note that SWE-agent is still developed very actively, so the python implementation details
+are still changing. See <a href="../installation/changelog/">the changelog</a> for more information.</p>
 </div>
-<h2 id="inference">👩‍💻 Inference <a name="inference"></a></h2>
-<p>Run SWE-agent on <a href="https://www.swebench.com/lite.html">SWE-bench Lite</a> and generate patches.</p>
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>run.py<span class="w"> </span>--model_name<span class="w"> </span>gpt4<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--per_instance_cost_limit<span class="w"> </span><span class="m">2</span>.00<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--config_file<span class="w"> </span>./config/default.yaml
-</code></pre></div>
-<p>If you'd like to run on a <em>single</em> issue from SWE-bench, use the <code>--instance_filter</code> option as follows:
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>run.py<span class="w"> </span>--model_name<span class="w"> </span>gpt4<span class="w"> </span><span class="se">\</span>
-<span class="w">  </span>--instance_filter<span class="w"> </span>marshmallow-code__marshmallow-1359
-</code></pre></div></p>
-<p>The above examples use the default value of <code>--data_path</code> (<code>princeton-nlp/SWE-bench_Lite</code>, which will be looked up from huggingface).
-You can specify any other huggingface datasets as well, or supply the path to a pre-downloaded dataset.
-By default, SWE-agent evaluates on the <code>dev</code> split of that dataset.
-You can change that by supplying the <code>--split</code> argument to the above commands (obviously you shouldn't tune your model on the <code>test</code> dataset).</p>
-<h2 id="evaluation">🧪 Evaluation <a name="evaluation"></a></h2>
-<div class="admonition note">
-<p class="admonition-title">Previous <code>evaluation/</code> scripts</p>
-<p>We have removed the scripts that were previously in the <code>evaluation/</code> subfolder.
-They were relatively thin wrappers around <code>swe-bench</code>. After the <code>swe-bench</code> 2.0 update, we recommend to use <code>swe-bench</code> directly.</p>
+<div class="admonition tip">
+<p class="admonition-title">SWE-agent architecture</p>
+<p>Please first read the <a href="../background/architecture/">architecture page</a> for an overview of SWE-agent.</p>
 </div>
-<p>You can directly run SWE-bench to evaluate the SWE-agent results.</p>
-<p>After installing SWE-bench, you can run <code>run_evaluation</code> as such:</p>
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>-m<span class="w"> </span>swebench.harness.run_evaluation<span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>--predictions_path<span class="w"> </span>/path/to/all_preds.jsonl<span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>--max_workers<span class="w"> </span><span class="m">1</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>--run_id<span class="w"> </span><span class="nb">test</span><span class="w"> </span><span class="se">\</span>
-<span class="w">    </span>--split<span class="w"> </span>dev
-</code></pre></div>
-<p>Head over to <a href="https://github.com/princeton-nlp/SWE-bench/">SWE-bench</a> for details.</p>
-<div class="admonition note">
-<p class="admonition-title">Default split</p>
-<p>When running <code>swe-agent</code> it uses the SWE-bench lite <code>dev</code> split by default (i.e., when not specifying <code>--data_path</code> or <code>--split</code>).
-However, <code>swe-bench</code> assumes the SWE-bench lite <code>test</code> split by default.
-When you get warnings from <code>swe-bench</code> about missing instances, make sure you specify <code>--split test</code> or <code>--split dev</code> appropriately.</p>
-</div>
-<!-- BEGIN INCLUDE ../_footer.md -->
-<div class="grid cards">
+<p>The core:</p>
 <ul>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 12h-4v-2h4m0 6h-4v-2h4m6-6h-2.81a6 6 0 0 0-1.82-1.96L17 4.41 15.59 3l-2.17 2.17a6 6 0 0 0-2.83 0L8.41 3 7 4.41l1.62 1.63C7.88 6.55 7.26 7.22 6.81 8H4v2h2.09c-.05.33-.09.66-.09 1v1H4v2h2v1c0 .34.04.67.09 1H4v2h2.81c1.04 1.79 2.97 3 5.19 3s4.15-1.21 5.19-3H20v-2h-2.09c.05-.33.09-.66.09-1v-1h2v-2h-2v-1c0-.34-.04-.67-.09-1H20z"/></svg></span> <strong>Something broken?</strong>
-    <a href="https://github.com/princeton-nlp/SWE-agent/issues/new?template=bug_report.yml"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Report bug</a></p>
+<li>The <code>sweagent/agent/</code> <a href=""></a> submodule implements the agent.<ul>
+<li><a href="agent/">Read about the <code>Agent</code> class</a></li>
+<li><a href="https://github.com/princeton-nlp/SWE-agent/tree/main/sweagent/agent/">Explore the code</a></li>
+</ul>
 </li>
-<li>
-<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 19h3v3h-3zm2-17c5.35.22 7.68 5.62 4.5 9.67-.83 1-2.17 1.66-2.83 2.5C13 15 13 16 13 17h-3c0-1.67 0-3.08.67-4.08.66-1 2-1.59 2.83-2.25C15.92 8.43 15.32 5.26 12 5a3 3 0 0 0-3 3H6a6 6 0 0 1 6-6"/></svg></span> <strong>Something unclear?</strong>
-    <a href="https://github.com/princeton-nlp/SWE-agent/issues/new?template=question.yml"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.75.75 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0"/></svg></span> Ask question</a></p>
+<li>The <code>sweagent/environment/</code> submodule handles the communication with the docker container where we execute code.<ul>
+<li><a href="agent/">Read about the <code>SWEEnv</code> class</a></li>
+<li><a href="https://github.com/princeton-nlp/SWE-agent/tree/main/sweagent/environment/">Explore the code</a></li>
+</ul>
 </li>
 </ul>
-</div>
-<!-- END INCLUDE -->
+<p>More subfolders</p>
+<ul>
+<li>See the <a href="https://github.com/princeton-nlp/SWE-agent/tree/main/scripts/"><code>scripts/</code></a> folder for other useful scripts and details.</li>
+<li>See the <a href="https://github.com/princeton-nlp/SWE-agent/tree/main/config/"><code>config/</code></a> folder for details about how you can define your own configuration!</li>
+<li>See the <a href="https://github.com/princeton-nlp/SWE-agent/tree/main/trajectories"><code>trajectories/</code></a> folder for details about the output of <code>run.py</code>.</li>
+</ul>
 
 
 
@@ -1432,7 +1324,7 @@ When you get warnings from <code>swe-bench</code> about missing instances, make 
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../usage_faq/" class="md-footer__link md-footer__link--prev" aria-label="Previous: FAQ">
+          <a href="../dev/formatting_conflicts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Formatting conflicts">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1442,20 +1334,20 @@ When you get warnings from <code>swe-bench</code> about missing instances, make 
                 Previous
               </span>
               <div class="md-ellipsis">
-                FAQ
+                Formatting conflicts
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../config/config/" class="md-footer__link md-footer__link--next" aria-label="Next: Config files">
+          <a href="agent/" class="md-footer__link md-footer__link--next" aria-label="Next: Agent">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Config files
+                Agent
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1489,10 +1381,10 @@ When you get warnings from <code>swe-bench</code> about missing instances, make 
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "content.action.edit", "navigation.footer", "content.code.copy", "content.footnote.tooltips", "header.autohide", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes", "content.action.edit", "navigation.footer", "content.code.copy", "content.footnote.tooltips", "header.autohide", "announce.dismiss"], "search": "../assets/javascripts/workers/search.07f07601.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
